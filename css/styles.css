@@ -1,0 +1,52 @@
+h1{
+    color: White;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 3rem;
+    text-emphasis: bold;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.introText{
+    padding-bottom: 2rem;
+}
+
+.navbar{
+    padding-bottom: 5rem;
+    padding-left: 0;
+}
+
+.dogPhoneDiv{
+    transform: rotate(20deg);
+    padding-top:4.5rem;
+    text-align: center;
+}
+
+.dogPhoneImg{
+    width: 60%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding-left: 0;
+}
