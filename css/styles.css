@@ -5,7 +5,17 @@ h1{
     font-weight: 900;
     line-height: 1.5;
     padding-bottom: 3rem;
-    text-emphasis: bold;
+}
+
+h2{
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold", sans-serif;
 }
 
 body{
@@ -18,22 +28,36 @@ body{
 }
 
 .navbar{
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     padding-left: 0;
 }
 
+
 .dogPhoneDiv{
     transform: rotate(20deg);
-    padding-top:4.5rem;
+    padding-top:1rem;
     text-align: center;
 }
 
 .dogPhoneImg{
     width: 60%;
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+}
+
+.dogTestimonial, .testimonial-image{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 .navbar-brand{
@@ -46,7 +70,59 @@ body{
     padding: 3rem;
 }
 
+.fas{
+    color: #ef8172;
+    padding: 5%;
+}
+
+.fas:hover{
+    color: #ff4c68
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
 #title{
     background-color: #ff4c68;
     padding-left: 0;
 }
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    background-color: white;
+    position: relative;
+}
+
+#features p{
+    color:#8f8f8f;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+ #pricing{
+     text-align: center;
+     padding: 100px;
+ }
