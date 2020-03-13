@@ -1,27 +1,29 @@
+/* elements */
+
 h1{
     color: White;
-    font-family: "Montserrat-Bold", sans-serif;
     font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
     padding-bottom: 3rem;
 }
 
 h2{
-    font-family: "Montserrat-Bold", sans-serif;
     font-size: 3rem;
+}
+
+h1, h2{
     font-weight: 900;
     line-height: 1.5;
 }
 
-h3{
+h1, h2, h3{
     font-family: "Montserrat-Bold", sans-serif;
 }
 
 body{
     font-family: "Montserrat", sans-serif;
-
 }
+
+/* classes */
 
 .introText{
     padding-bottom: 2rem;
@@ -32,6 +34,15 @@ body{
     padding-left: 0;
 }
 
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    padding: 3rem;
+}
 
 .dogPhoneDiv{
     transform: rotate(20deg);
@@ -60,16 +71,6 @@ body{
     padding: 7% 15%;
 }
 
-.navbar-brand{
-    font-family: "Ubuntu", sans-serif;
-    font-size: 4rem;
-}
-
-.nav-item{
-    font-size: 1.5rem;
-    padding: 3rem;
-}
-
 .fas{
     color: #ef8172;
     padding: 5%;
@@ -95,6 +96,8 @@ body{
     padding:0;
     color:black;
 }
+
+/* id tags */
 
 #title{
     background-color: #ff4c68;
@@ -162,6 +165,8 @@ body{
  #footer i{
      padding: 10px;
  }
+
+/* media queries */
 
  @media(max-width: 1028px){
      .dogPhoneImg{
