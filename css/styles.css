@@ -126,3 +126,17 @@ body{
      text-align: center;
      padding: 100px;
  }
+
+ @media(max-width: 1028px){
+     .dogPhoneImg{
+         position: static;
+     }
+
+     .dogPhoneDiv{
+         transform: rotate(0);
+     }
+
+     #title{
+         text-align: center;
+     }
+ }
